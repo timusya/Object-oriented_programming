@@ -65,6 +65,39 @@ public:
 	}
 };
 
+// класс Отрезок
+class Section {
+private:
+	// композиция объектов
+	Point* p1;
+	Point* p2;
+public:
+	// конструктор по умолчанию
+	Section() {
+		cout << "Section()\n";
+		p1 = new Point();
+		p2 = new Point();
+	}
+	// конструктор с параметрами
+	Section(int x1, int y1, int x2, int y2) {
+		cout << "Section(int x1, int y1, int x2, int y2)\n";
+		p1 = new Point(x1, y1);
+		p2 = new Point(x2, y2);
+	}
+	// конструктор копирования
+	Section(const Section& s) {
+		cout << "Section(const Section& s)\n";
+		p1 = new Point(*(s.p1));
+		p2 = new Point(*(s.p2));
+	}
+	// деструктор
+	~Section() {
+		delete p1;
+		delete p2;
+		cout << "~Section()\n";
+	}
+};
+
 int main() {
 	/*
 	// Создание, использование и уничтоженеие статически создаваемых объектов
@@ -89,17 +122,24 @@ int main() {
 	delete pd;
 	*/
 
+	/*
 	// работа с объектом класса-наследника
 	ColoredPoint *p = new ColoredPoint(1, 7, 23);
 	p->change_color(9);
 	p->move(1, 1);
 	delete p;
-	
+	*/
+
 	/*
 	// переменные различных типов
 	Point *p2 = new ColoredPoint(1, 3, 9);
 	delete p2;
 	*/
 
+	// создание объекта класса с композицией
+	Section* s1 = new Section();
+	Section* s2 = new Section(*s1);
+	delete s1;
+	delete s2;
 	return 0;
 }
