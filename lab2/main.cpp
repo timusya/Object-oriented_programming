@@ -69,30 +69,29 @@ public:
 class Section {
 private:
 	// композиция объектов
-	Point* p1;
+	Point p1;
 	Point* p2;
 public:
 	// конструктор по умолчанию
 	Section() {
 		cout << "Section()\n";
-		p1 = new Point();
+		p1 = Point();
 		p2 = new Point();
 	}
 	// конструктор с параметрами
 	Section(int x1, int y1, int x2, int y2) {
 		cout << "Section(int x1, int y1, int x2, int y2)\n";
-		p1 = new Point(x1, y1);
+		p1 = Point(x1, y1);
 		p2 = new Point(x2, y2);
 	}
 	// конструктор копирования
 	Section(const Section& s) {
 		cout << "Section(const Section& s)\n";
-		p1 = new Point(*(s.p1));
+		p1 = Point(s.p1);
 		p2 = new Point(*(s.p2));
 	}
 	// деструктор
 	~Section() {
-		delete p1;
 		delete p2;
 		cout << "~Section()\n";
 	}
@@ -137,9 +136,7 @@ int main() {
 	*/
 
 	// создание объекта класса с композицией
-	Section* s1 = new Section();
-	Section* s2 = new Section(*s1);
-	delete s1;
-	delete s2;
+	Section s1;
+	
 	return 0;
 }
