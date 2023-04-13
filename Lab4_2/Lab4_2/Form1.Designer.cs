@@ -56,6 +56,7 @@
             textBoxA.Name = "textBoxA";
             textBoxA.Size = new Size(150, 31);
             textBoxA.TabIndex = 0;
+            textBoxA.KeyDown += textBoxA_KeyDown;
             // 
             // textBoxB
             // 
@@ -63,6 +64,7 @@
             textBoxB.Name = "textBoxB";
             textBoxB.Size = new Size(150, 31);
             textBoxB.TabIndex = 1;
+            textBoxB.KeyDown += textBoxB_KeyDown;
             // 
             // textBoxC
             // 
@@ -70,6 +72,7 @@
             textBoxC.Name = "textBoxC";
             textBoxC.Size = new Size(150, 31);
             textBoxC.TabIndex = 2;
+            textBoxC.KeyDown += textBoxC_KeyDown;
             // 
             // numericA
             // 
@@ -77,6 +80,7 @@
             numericA.Name = "numericA";
             numericA.Size = new Size(150, 31);
             numericA.TabIndex = 3;
+            numericA.ValueChanged += numericA_ValueChanged;
             // 
             // numericB
             // 
@@ -84,6 +88,7 @@
             numericB.Name = "numericB";
             numericB.Size = new Size(150, 31);
             numericB.TabIndex = 4;
+            numericB.ValueChanged += numericB_ValueChanged;
             // 
             // numericC
             // 
@@ -91,27 +96,34 @@
             numericC.Name = "numericC";
             numericC.Size = new Size(150, 31);
             numericC.TabIndex = 5;
+            numericC.ValueChanged += numericC_ValueChanged;
             // 
             // trackBarA
             // 
             trackBarA.Location = new Point(116, 336);
+            trackBarA.Maximum = 100;
             trackBarA.Name = "trackBarA";
             trackBarA.Size = new Size(150, 69);
             trackBarA.TabIndex = 6;
+            trackBarA.MouseUp += trackBarA_MouseUp;
             // 
             // trackBarB
             // 
             trackBarB.Location = new Point(352, 336);
+            trackBarB.Maximum = 100;
             trackBarB.Name = "trackBarB";
             trackBarB.Size = new Size(150, 69);
             trackBarB.TabIndex = 7;
+            trackBarB.MouseUp += trackBarB_MouseUp;
             // 
             // trackBarC
             // 
             trackBarC.Location = new Point(590, 336);
+            trackBarC.Maximum = 100;
             trackBarC.Name = "trackBarC";
             trackBarC.Size = new Size(150, 69);
             trackBarC.TabIndex = 8;
+            trackBarC.MouseUp += trackBarC_MouseUp;
             // 
             // label1
             // 
@@ -184,6 +196,7 @@
             Controls.Add(textBoxA);
             Name = "Form1";
             Text = "Form1";
+            FormClosing += Form1_FormClosing;
             ((System.ComponentModel.ISupportInitialize)numericA).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericB).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericC).EndInit();
