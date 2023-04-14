@@ -87,6 +87,84 @@ public:
 	}
 };
 
+// класс Container
+class Container {
+private:
+	int size;
+	Base** arr;
+public:
+	// конструктор без параметров
+	Container() : size(0), arr(new Base* [size]()) {
+		cout << "Container()\n";
+	}
+	// конструктор с параметрами
+	Container(int size) : size(size), arr(new Base* [size]()) {
+		cout << "Container(int size)\n";
+	}
+	// деструктор
+	~Container() {
+		for (int i = 0; i < size; ++i) {
+			if (arr[i]) delete[] arr[i];
+		}
+		delete[] arr;
+		cout << "~Container()\n";
+	}
+	// метод получения размера контейнера
+	int get_size() {
+		return size;
+	}
+	// вспомогательный метод для получения содержимого контейнера
+	void info() {
+		cout << "size = " << size << "\n";
+		cout << "container: \n";
+		for (int i = 0; i < size; ++i) {
+			if (arr[i]) arr[i]->classname();
+			else cout << "NULL\n";
+		}
+	}
+	// метод установки в контейнер по индексу
+	void set(int pos, Base* x) {
+		assert(0 <= pos && pos < size);
+		if (arr[pos]) delete[] arr[pos];
+		arr[pos] = x;
+	}
+	// метод получения из контейнера по индексу
+	Base* get(int pos) {
+		assert(0 <= pos && pos < size);
+		return arr[pos];
+	}
+	// метод вставки в контейнер по индексу
+	void insert(int pos, Base* x) {
+		assert(0 <= pos && pos <= size);
+		Base** new_arr = new Base * [size + 1];
+		for (int i = 0; i < pos; ++i) {
+			new_arr[i] = arr[i];
+		}
+		new_arr[pos] = x;
+		for (int i = pos + 1; i <= size; ++i) {
+			new_arr[i] = arr[i - 1];
+		}
+		delete[] arr;
+		size++;
+		arr = new_arr;
+	}
+	// метод удаления из контейнера по индексу
+	void remove(int pos) {
+		assert(0 <= pos && pos < size);
+		size--;
+		Base** new_arr = new Base * [size];
+		for (int i = 0; i < pos; ++i) {
+			new_arr[i] = arr[i];
+		}
+		for (int i = pos; i < size; ++i) {
+			new_arr[i] = arr[i + 1];
+		}
+		delete[] arr[pos];
+		delete[] arr;
+		arr = new_arr;
+	}
+};
+
 int main() {
 
 	_CrtDumpMemoryLeaks();
