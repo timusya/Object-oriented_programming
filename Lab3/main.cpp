@@ -165,7 +165,61 @@ public:
 	}
 };
 
+// получение рандомного класса
+Base* my_rand() {
+	int r = rand() % 4;
+	if (r == 0) return new Class1;
+	else if (r == 1) return new Class2;
+	else if (r == 2) return new Class3;
+	else return new Class4;
+}
+
+// выполнение рандомного действия
+void rand_action(Container& c) {
+	int size = c.get_size();
+	int r = rand() % 4;
+	if (r == 0) { // set(pos, x)
+		int pos = rand() % size;
+		c.set(pos, my_rand());
+	}
+	else if (r == 1) { // get(pos)
+		int pos = rand() % size;
+		Base* x = c.get(pos);
+		if (x) {
+			x->classname();
+			Class1* c1 = dynamic_cast<Class1*>(x);
+			if (c1) c1->mew();
+			Class3* c3 = dynamic_cast<Class3*>(x);
+			if (c3) c3->wow();
+		}
+	}
+	else if (r == 2) { // insert(pos, x)
+		int pos = rand() % (size + 1);
+		c.insert(pos, my_rand());
+	}
+	else { // remove(pos)
+		int pos = rand() % size;
+		c.remove(pos);
+	}
+}
+
 int main() {
+	srand(time(0));
+
+	int start, finish;
+	{
+		Container c(10000);
+		for (int i = 0; i < 10000; ++i) {
+			c.set(i, my_rand());
+		}
+		int acts = 10000;
+		start = clock();
+		for (int i = 0; i < acts; ++i) {
+			rand_action(c);
+		}
+		finish = clock();
+	}
+	cout << "Time = " << finish - start << "\n";
 
 	_CrtDumpMemoryLeaks();
 	return 0;
