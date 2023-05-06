@@ -1,0 +1,51 @@
+C:\projects\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.exe
+C:\projects\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.deps.json
+C:\projects\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.runtimeconfig.json
+C:\projects\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.dll
+C:\projects\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.pdb
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.csproj.AssemblyReference.cache
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.Form1.resources
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.csproj.GenerateResource.cache
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.AssemblyInfoInputs.cache
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.AssemblyInfo.cs
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.csproj.CoreCompileInputs.cache
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.dll
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\refint\Lab4_1.dll
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.pdb
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.genruntimeconfig.cache
+C:\projects\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\ref\Lab4_1.dll
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.exe
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.deps.json
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.runtimeconfig.json
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.dll
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.pdb
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.csproj.AssemblyReference.cache
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.Form1.resources
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.csproj.GenerateResource.cache
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.AssemblyInfoInputs.cache
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.AssemblyInfo.cs
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.csproj.CoreCompileInputs.cache
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.dll
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\refint\Lab4_1.dll
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.pdb
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.genruntimeconfig.cache
+E:\УЧЁБА_ТИМ\ООП\Лабораторная работа №4_1\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\ref\Lab4_1.dll
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.exe
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.deps.json
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.runtimeconfig.json
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.dll
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\bin\Debug\net6.0-windows\Lab4_1.pdb
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.csproj.AssemblyReference.cache
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.Form1.resources
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.csproj.GenerateResource.cache
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.AssemblyInfoInputs.cache
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.AssemblyInfo.cs
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.csproj.CoreCompileInputs.cache
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.dll
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\refint\Lab4_1.dll
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.pdb
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\Lab4_1.genruntimeconfig.cache
+D:\УЧЁБА_ТИМ\ООП\Лабораторная работа №6\Lab4_1\Lab4_1\obj\Debug\net6.0-windows\ref\Lab4_1.dll
